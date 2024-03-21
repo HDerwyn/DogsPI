@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Centra los elementos horizontalmente */
+  max-width: 1200px;
+  margin: 0.10rem auto; /* Centra el contenedor en la página y agrega un margen superior e inferior de 2rem */
+  gap: 2rem;
+  margin-bottom: 50px; /* Agrega un margen inferior de 50px */
+  background-color: black;
+}

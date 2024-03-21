@@ -1,0 +1,29 @@
+.landing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.title {
+  font-size: 2.5em;
+  color: #0a0808; 
+  text-align: center;
+  padding: 20px;
+}
+
+.home {
+  font-size: 2em;
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #000000;
+  color: rgb(137, 131, 131);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.home:hover {
+  background-color: gray; 
+}

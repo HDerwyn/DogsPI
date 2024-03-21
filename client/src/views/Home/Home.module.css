@@ -1,0 +1,57 @@
+.home{
+    background-color: black;
+    min-height: 100vh; /* Cubre toda la altura de la ventana del navegador */
+    position: relative; /* Habilita el posicionamiento absoluto para los elementos hijos */
+}
+
+.buttonContainer {
+    display: flex; /* Habilita flexbox */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente */
+    position: relative; /* Posiciona el contenedor de botones de forma absoluta */
+    left: 750px;
+    top: 4px;
+    bottom: 20px; /* Posiciona el contenedor de botones 20px por encima del borde inferior del contenedor padre */
+    width: 400px; /* Asegura que el contenedor de botones tenga el mismo ancho que el contenedor padre */
+    background-color: black;
+    margin-top: 20px; /* Agrega un margen superior de 20px */
+}
+
+
+
+.button {
+    margin-right: 20px;
+    padding: 10px 20px;
+    border: 4px solid #fff; /* Cambiamos el color del borde a blanco para que contraste con el fondo negro */
+    border-radius: 0;
+    background-color: #808080;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+    align-items: center;
+}
+
+
+.button:hover {
+    background-color: #606060;
+}
+
+.pagina {
+    margin-right: 20px;
+    color: white;
+    background-color: #808080;
+    font-family: 'Impact', sans-serif;
+    font-size: xx-large;
+    font-weight: lighter;
+}
+
+.paginaContainer {
+    display: flex;
+    flex-direction: row; /* Añade esta línea */
+    width: 100%;
+    margin-right: 100px;
+    position: relative;
+    left: 50px;
+    bottom: 20px;
+}

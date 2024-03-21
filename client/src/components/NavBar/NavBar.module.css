@@ -1,0 +1,75 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: #000; /* Cambiamos el color de fondo a negro */
+    border: 3px solid #ffffff;
+    border-radius: 0;
+    font-family: 'Impact', sans-serif;
+    color: #fff; /* Cambiamos el color del texto a blanco para que contraste con el fondo negro */
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.input {
+    flex-grow: 1;
+    margin-right: 20px;
+    padding: 10px;
+    border: 2px solid #fff; /* Cambiamos el color del borde a blanco para que contraste con el fondo negro */
+    border-radius: 0;
+    font-size: 16px;
+    background-color: #fff; /* Cambiamos el color de fondo a blanco para que contraste con el fondo negro */
+    color: #000; /* Cambiamos el color del texto a negro para que contraste con el fondo blanco */
+}
+
+.button {
+    margin-right: 20px;
+    padding: 10px 20px;
+    border: 2px solid #fff; /* Cambiamos el color del borde a blanco para que contraste con el fondo negro */
+    border-radius: 0;
+    background-color: #808080;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #606060;
+    transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+.select {
+    width: 200px;
+    padding: 10px;
+    border: 2px solid #fff; /* Cambiamos el color del borde a blanco para que contraste con el fondo negro */
+    border-radius: 0;
+    font-size: 16px;
+    background-color: #fff; /* Cambiamos el color de fondo a blanco para que contraste con el fondo negro */
+    color: #000; /* Cambiamos el color del texto a negro para que contraste con el fondo blanco */
+}
+
+.searchContainer {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.homeButton{
+    margin-right: 20px;
+    padding: 10px 20px;
+    border: 4px solid #fff; /* Cambiamos el color del borde a blanco para que contraste con el fondo negro */
+    border-radius: 0;
+    background-color: #808080;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+}
+
+.homeButton:hover{
+    background-color: #606060;
+    transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
