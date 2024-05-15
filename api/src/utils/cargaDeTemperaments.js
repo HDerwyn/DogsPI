@@ -33,7 +33,7 @@ let objForDb = filteredArray.map((element) => {
 });
 
 Temperament.bulkCreate(objForDb)
-  .then(() => console.log("Los Temperamentos se han cargado correctamente"))
+  .then(() => console.log("Los Temperamentos se han cargado correctamente en la base de datos"))
   .catch((error) => console.log("ocurrio un error: ", error));
 
 }
